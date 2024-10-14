@@ -47,10 +47,10 @@
         <mxCell id="KINWoWAg_GiYiKx88e6P-12" value="Bar" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="580" y="290" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-17" value="Comune:&lt;div&gt;Superficie&lt;/div&gt;&lt;div&gt;CAP&lt;/div&gt;&lt;div&gt;N abitanti&lt;/div&gt;&lt;div&gt;Provincia di appartenenza&lt;/div&gt;&lt;div&gt;Regione di appartenenza&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="340" width="160" height="100" as="geometry" />
+        <mxCell id="KINWoWAg_GiYiKx88e6P-17" value="Bibite:&lt;div&gt;*Nome*&lt;/div&gt;&lt;div&gt;Casa prod&lt;/div&gt;&lt;div&gt;Array ingredienti&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-18" value="Regione:&lt;div&gt;Superficie&lt;/div&gt;&lt;div&gt;N abitanti&lt;/div&gt;&lt;div&gt;Array provincie&lt;/div&gt;&lt;div&gt;Array comuni&lt;/div&gt;&lt;div&gt;Capoluogo&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KINWoWAg_GiYiKx88e6P-18" value="Bar:&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Proprietario&lt;/div&gt;&lt;div&gt;*P Iva*&lt;/div&gt;&lt;div&gt;Menu&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="340" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KINWoWAg_GiYiKx88e6P-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -67,6 +67,33 @@
         </mxCell>
         <mxCell id="KINWoWAg_GiYiKx88e6P-11" value="si trova" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="380" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-22" value="Elezione Rappresentanti" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-23" value="Classe" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-24" value="Elezione Rappresentanti:&lt;div&gt;*Classe di appartenenza*&lt;br&gt;&lt;div&gt;Array Nomi Rappresentanti&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-25" value="Classe:&lt;div&gt;*Sezione + Anno*&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="479.5" as="sourcePoint" />
+            <mxPoint x="580" y="479.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-27" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="KINWoWAg_GiYiKx88e6P-26">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-28" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="KINWoWAg_GiYiKx88e6P-26">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KINWoWAg_GiYiKx88e6P-29" value="effettuata" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
