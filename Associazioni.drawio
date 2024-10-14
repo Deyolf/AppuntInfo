@@ -128,11 +128,11 @@
         <mxCell id="KINWoWAg_GiYiKx88e6P-39" value="Scuola" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="580" y="740" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-40" value="&lt;div&gt;Attori:&lt;/div&gt;&lt;div&gt;*Nome*&lt;br&gt;&lt;div&gt;CF&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KINWoWAg_GiYiKx88e6P-40" value="&lt;div&gt;Preside:&lt;/div&gt;&lt;div&gt;*Nome*&lt;br&gt;&lt;div&gt;CF&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="790" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-41" value="Film:&lt;div&gt;*Nome*&lt;/div&gt;&lt;div&gt;Casa Produttrice&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="790" width="160" height="50" as="geometry" />
+        <mxCell id="KINWoWAg_GiYiKx88e6P-41" value="Scuola:&lt;div&gt;*Nome*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="790" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KINWoWAg_GiYiKx88e6P-42" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="KINWoWAg_GiYiKx88e6P-45">
           <mxGeometry relative="1" as="geometry">
@@ -145,15 +145,6 @@
         </mxCell>
         <mxCell id="KINWoWAg_GiYiKx88e6P-45" value="Presiede" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="380" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-46" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="600" as="sourcePoint" />
-            <mxPoint x="500" y="600" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KINWoWAg_GiYiKx88e6P-47" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="KINWoWAg_GiYiKx88e6P-46">
-          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KINWoWAg_GiYiKx88e6P-49" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
