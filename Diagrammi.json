@@ -1,0 +1,52 @@
+[
+    {
+        "Diagrammi Entità/Relazioni": {
+            "Sint": "E/R = Entities/Relationships  → DrawIO",
+            "Entità": {
+                "Descrizione": "classe di oggetti che hanno proprietà comuni",
+                "Simbolo": "Quadrato con dipendenze"
+            },
+            "Associazioni": {
+                "Descrizione": "Mezzo per il quale vengono modellate corrispondenze tra istanze tra più entità",
+                "Simbolo": "Rombo",
+                "Tipologie": [
+                    {
+                        "Nome-Tipologia": "1/1",
+                        "Descrizione": "BI-Univoco",
+                        "Esempio": "Reparto-Direttore",
+                        "Simboli":{
+                            "NON Obbligo":"0,1 - Linea tratteggiata",
+                            "Obbligo_v1":"1",
+                            "Obbligo_v2":"1,1"
+                        }
+                    },
+                    {
+                        "Nome-Tipologia": "N/1",
+                        "Descrizione": "Univoco",
+                        "Esempio": "Libro-Scaffale",
+                        "Simboli":{
+                            "Obbligo_v1":"N",
+                            "NON Obbligo_v1":"0,N",
+                            "Obbligo_v2":"1",
+                            "NON Obbligo_v2":"0,1"
+                        }
+                    },
+                    {
+                        "Nome-Tipologia": "N/M",
+                        "Descrizione": "NON-Univoco",
+                        "Esempio": "Studente-Materia",
+                        "Simboli":{
+                            "Obbligo_v1":"N",
+                            "Obbligo_v2":"M"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Analisi": {
+            "Descrizione": "molto importante per determinare associazioni e entità"
+        }
+    }
+]
