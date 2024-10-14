@@ -15,7 +15,7 @@
                         "Descrizione": "BI-Univoco",
                         "Esempio": "Reparto-Direttore",
                         "Simboli":{
-                            "NON Obbligo":"0,1 - Linea tratteggiata",
+                            "NON Obbligo":"0,1 - Linea tratteggiata lato opposto",
                             "Obbligo_v1":"1",
                             "Obbligo_v2":"1,1"
                         }
